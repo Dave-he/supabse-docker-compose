@@ -351,7 +351,7 @@ services:
       - DB_POSTGRESDB_HOST=${POSTGRES_HOST}
       - DB_POSTGRESDB_PORT=${POSTGRES_PORT}
       - DB_POSTGRESDB_USER=postgres
-      - DB_POSTGRESDB_SCHEMA=public
+      - DB_POSTGRESDB_SCHEMA=n8n
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
     # 数据卷挂载：与原配置一致，映射n8n_data卷到n8n数据目录
     volumes:
